@@ -1,15 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void print_num(int i,int num){
+void print_n(int i,int n){
     if(i<1) return ;
-    print_num(i-1,num);
+    print_n(i-1,n);
     cout<<i<<" ";
 }
 int main(){
     int n;
     cout<<"Enter till the no. you want to print : ";
     cin>>n;
-    print_num(n,n);
+    print_n(n,n);
     return 0;
 }
